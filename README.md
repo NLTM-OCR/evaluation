@@ -13,6 +13,7 @@ for a pair of text.
 
 ```python
 from process import evaluate
+# First string is the GT while second string is the predicted OCR text.
 crr, wrr = evaluate("ब्राउन फॉक्स", "ब्रान फॉक्स", "hindi")
 ```
 
